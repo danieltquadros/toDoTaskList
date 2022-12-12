@@ -1,0 +1,87 @@
+.dark {
+  --contrast: #FFF;
+  --gradient-100: #F2F2F2;
+  --gradient-200: #D9D9D9;
+  --gradient-300: #808080;
+  --gradient-400: #454545;
+  --gradient-500: #262626;
+  --gradient-600: #1A1A1A;
+  --gradient-700: #0D0D0D;
+
+  --primary: #8284FA;
+  --primary-dark: #5E60CE;
+
+  --secondary: #4EA8DE;
+  --secondary-dark: #1E6F9F;
+
+  --input-background: #262626;
+  --input-border: #0D0D0D;
+
+  --button-background: #1E6F9F;
+  --button-background-hover: #0091B5;
+
+  --button-background-disabled: #454545;
+  --button-color-disabled: #808080;
+
+  --tasknumber-color: #D9D9D9;
+
+  --task-unchecked-background: #0D0D0D;
+  --task-checked-background: #454545;
+
+  --danger: #E25858;
+}
+
+.light {
+  --contrast: #000;
+  --gradient-100: #0D0D0D;
+  --gradient-200: #1A1A1A;
+  --gradient-300: #262626;
+  --gradient-400: #454545;
+  --gradient-500: #808080;
+  --gradient-600: #D9D9D9;
+  --gradient-700: #F2F2F2;
+
+  --primary: #8284FA;
+  --primary-dark: #5E60CE;
+
+  --secondary: #4EA8DE;
+  --secondary-dark: #1E6F9F;
+
+  /* --input-background: #E6F4F1; */
+  --input-background: #FFF;
+  --input-border: #4EA8DE;
+
+  --button-background: #4EA8DE;
+  --button-background-hover: #1E6F9F;
+
+  --button-background-disabled: #808080;
+  --button-color-disabled: #F2F2F2;
+
+  --tasknumber-color: #D9D9D9;
+
+  --task-unchecked-background: #5E60CE;
+  --task-checked-background: #E6F4F1;
+
+  --danger: #E25858;
+}
+
+.container {
+  min-Height: 100vh;
+  background: var(--gradient-600);
+  color: var(--gradient-300);
+}
+
+.developBy {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+
+.developBy span {
+  width: 736px;
+  font-family: 'Dancing Script', 'Inter',sans-serif;
+  color: var(--gradient-300);
+  font-size: 0.875rem;
+}

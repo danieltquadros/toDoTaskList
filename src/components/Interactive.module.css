@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 133px;
+  width: 100%;
+  height: 28px;
+}
+
+.circleContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 736px;
+}
+
+@media (max-width: 768px) {
+  .circleContainer {
+    width: 95vw;
+  }
+}
+
+.colorCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 0.125rem;
+  border: 3px solid var(--gradient-700);
+  outline: 1px solid var(--secondary);
+  background-color: none;
+}
+
+.colorCircle img {
+  width: 20px;
+}
+
+.colorCircle:hover {
+  outline: 1px solid var(--gradient-300);
+}

@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.containerTaskBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 736px;
+}
+
+@media (max-width: 768px) {
+  .containerTaskBoard {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 599px) {
+  .containerTaskBoard {
+    margin-top: 4rem;
+    width: 95vw;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.tasksHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTasksText {
+  display: flex;
+  align-items: flex-end;
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 0.875rem;
+  
+}
+
+.finishedTasksText {
+  display: flex;
+  align-items: flex-end;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.tasksNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tasknumber-color);
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 4px 8px 2px 8px;
+  line-height: 1.3;
+  border-radius: 10px;
+  background-color: var(--gradient-400);
+}
